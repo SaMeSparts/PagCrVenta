@@ -6,9 +6,13 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: '#0B1E3D',    // Azul Profundo
+        accent: '#c2a878',     // Dorado Lujo
+        background: '#F8F7F4', // Blanco Hueso (Off-white)
+      },
       fontFamily: {
-        roboto: ['"Roboto Condensed"', 'sans-serif'],
-        stack: ['"Stack Sans Notch"', 'sans-serif'],
+        sans: ['Montserrat', 'sans-serif'],
       },
     },
   },
